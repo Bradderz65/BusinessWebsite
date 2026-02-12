@@ -2,6 +2,8 @@
 const nextConfig = {
   output: 'export',
   distDir: 'dist',
+  basePath: '/BusinessWebsite',
+  assetPrefix: '/BusinessWebsite',
   images: {
     unoptimized: true,
   },
